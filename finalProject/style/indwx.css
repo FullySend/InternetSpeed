@@ -102,3 +102,19 @@ textarea {
 
     transition: opacity .2s;
 }
+
+.slidecontainer {
+    margin-top: 10px;
+}
+
+.slider-range {
+    width: 100%;
+}
+
+.range-number {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3px;
+    margin-bottom: 15px;
+}
