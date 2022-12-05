@@ -1,4 +1,19 @@
 //Project 1 Code:
+let inout1 = document.getElementById("inputname");
+let yourN = document.getElementById("yourname");
+
+inout1.on('keyup', function () {
+
+
+    function timer() {
+        let name = inout1.val();
+        yourN.text(name);
+    }
+
+
+    setTimeout(timer, 3000);
+
+});
 
 
 
