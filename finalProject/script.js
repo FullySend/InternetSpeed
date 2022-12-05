@@ -29,7 +29,7 @@ rangeValue.addEventListener("mouseup", function() {
     let getvalue = rangeValue.value;
     setvalue.innerHTML = this.value;
     if (getvalue > 0 && getvalue < 16){
-        imgchangevalue.setAttribute("src", "20%_image.jpeg")
+        imgchangevalue.setAttribute("src", "20_image.jpeg")
     } else if (getvalue >= 17 && getvalue <= 33) {
         imgchangevalue.setAttribute("src", "40% image.jpeg")
     } else if (getvalue >= 34 && getvalue <= 49) { 
