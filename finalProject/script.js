@@ -1,20 +1,16 @@
 //Project 1 Code:
-let inout1 = document.getElementById("inputname");
-let yourN = document.getElementById("yourname");
-
-inout1.on('keyup', function () {
-
-
-    function timer() {
-        let name = inout1.val();
-        yourN.text(name);
-    }
-
-
-    setTimeout(timer, 3000);
-
-});
-
+    // Get the value of the input box
+    
+    let box = document.getElementById("inputBox")
+    box.addEventListener("keyup", function() {
+    // Delay code execution by 3 seconds
+    let inputValue = document.getElementById("inputBox").value;
+    setTimeout(function() {
+      
+      let p = document.getElementById("p")
+      p.innerHTML = inputValue;
+      console.log(inputValue)
+    }, 3000)})
 
 
 
