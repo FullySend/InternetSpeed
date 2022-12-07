@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<input type="text" id="inputBox" />
+<p></p>
+<script>
+    // Delay code execution by 3 seconds
+    setTimeout(function() {
+      // Get the value of the input box
+      let inputValue = document.getElementById("inputBox").value;
+      let p = document.querySelector("p")
+      p.innerHTML = inputValue;
+    }, 3000);
+</script>
+</html>

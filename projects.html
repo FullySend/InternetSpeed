@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indwx.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+       <h3>a</h3>
+        <div class="topnav">
+             
+            <a class="active" href="/about.html">About</a>
+            <a href="/projects.html">Projects</a>
+            <a href="#donations">Donations</a>
+            
+        </div>
+    </header>
+    <section class="pro1">
+       <div>
+        <h2>Project 1 (Keystroke delays) </h2>         
+        <p>This project aim to to show the affect of slow/ low quality internet on internet webpage when typing, and show how this can affect produtivit and asscablity. </p>
+       
+        <input type="text" id="inputBox" />
+
+        <p id="p"><em>EDIT THIS TEXT<em></p>
+<script>
+    // Get the value of the input box
+    
+    let box = document.getElementById("inputBox")
+    box.addEventListener("keyup", function() {
+    // Delay code execution by 3 seconds
+    let inputValue = document.getElementById("inputBox").value;
+    setTimeout(function() {
+      
+      let p = document.getElementById("p")
+      p.innerHTML = inputValue;
+      console.log(inputValue)
+    }, 3000)})
+</script>
+    
+    </section>
+   <section class="pro2">
+       <div class>
+        <h2>Project 2 </h2>
+        <p>The speed of your internet connection will have an effect on the quality of the pictures you view. A slow connection will take longer to download the picture and as a result, the picture quality may be lower than with a faster connection. Additionally, a slow connection will not be able to handle larger file sizes and resolutions, leading to lower picture quality.</p>
+        </div>
+         <div class="project2Img">
+           <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" id="imgchange">
+       <br>
+    <div class="slidecontainer">
+  <input type="range" min="1" max="100" value="100" class="slider" id="myRange">
+    <ul class="range-number">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+        <p>Value : <span id="rangevalue"></span></p>
+        </div>
+        </div>
+    </section>
+     <section class="pro3">
+       <div>
+        <h2>Project 3 </h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repudiandae nihil cum corporis quia voluptatum blanditiis maiores cumquse unde consequuntur exercitationem dicta impedit earum tempore dolorum ducimus perferendis, animi sunt illum. Odio, officiis quas, et aut cum molestiae sunt assumenda id debitis, laboriosam vel! Velit voluptatum excepturi corporis et est corrupti fugit minus unde voluptas placeat consequatur totam ipsum, quis mollitia, autem odio. Cumque cum eligendi quis voluptatibus, sequi temporibus repudiandae odio eaque? Molestias totam excepturi earum officiis perspiciatis vel odio iste id doloribus.</p>
+        <button type="button" onclick="startTest()">Start Test</button>
+      </div>
+         <div class="area">
+
+        </div>
+
+
+</body>
+</html>
