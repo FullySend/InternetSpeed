@@ -1,17 +1,7 @@
 //Project 1:
-// Get the value of the input box
-    
-let box = document.getElementById("inputBox")
-box.addEventListener("keyup", function() {
-// Delay code execution by 3 seconds
-let inputValue = document.getElementById("inputBox").value;
-setTimeout(function() {
-  
-  let p = document.getElementById("p")
-  p.innerHTML = inputValue;
-  console.log(inputValue)
-}, 3000)})
 
+    
+//Code was the working on here for some reason, moved into the HTML
 
 
 //Project 2:
