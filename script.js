@@ -18,15 +18,15 @@ let rangeValue = document.getElementById("myRange");
     let getvalue = rangeValue.value;
     setvalue.innerHTML = this.value;
     if (getvalue > 0 && getvalue < 16){
-        imgchangevalue.setAttribute("src", "/InternetSpeed/20% image.jpeg")
+        imgchangevalue.setAttribute("src", "https://github.com/FullySend/InternetSpeed/blob/main/20%25%20image.jpeg?raw=true")
     } else if (getvalue >= 17 && getvalue <= 33) {
-        imgchangevalue.setAttribute("src", "/InternetSpeed/40% image.jpeg")
+        imgchangevalue.setAttribute("src", "https://github.com/FullySend/InternetSpeed/blob/main/40%25%20image.jpeg?raw=true")
     } else if (getvalue >= 34 && getvalue <= 49) { 
-        imgchangevalue.setAttribute("src", "/InternetSpeed/60% image.jpeg") 
+        imgchangevalue.setAttribute("src", "https://github.com/FullySend/InternetSpeed/blob/main/60%25%20image.jpeg?raw=true") 
     } else if (getvalue >= 50 && getvalue <= 66) { 
-        imgchangevalue.setAttribute("src", "/InternetSpeed/80% image.jpeg") 
+        imgchangevalue.setAttribute("src", "https://github.com/FullySend/InternetSpeed/blob/main/80%25%20image.jpeg?raw=true") 
     } else if (getvalue >= 67 && getvalue <= 83) { 
-        imgchangevalue.setAttribute("src", "/InternetSpeed/100% image.jpeg") 
+        imgchangevalue.setAttribute("src", "https://raw.githubusercontent.com/FullySend/InternetSpeed/main/100%25%20image.jpeg") 
     } else if (getvalue >= 84 && getvalue <= 100) { 
         imgchangevalue.setAttribute("src", "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") 
     }
